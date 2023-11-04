@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bioinformatyka_strukturalna", "Bioinformatyka_strukturalna\Bioinformatyka_strukturalna.pyproj", "{768C7EDF-D025-4888-9F64-7E7229D9010E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{768C7EDF-D025-4888-9F64-7E7229D9010E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768C7EDF-D025-4888-9F64-7E7229D9010E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FC48C7B-4311-455F-B069-8078A1576E76}
+	EndGlobalSection
+EndGlobal
