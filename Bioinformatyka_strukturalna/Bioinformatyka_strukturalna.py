@@ -40,6 +40,12 @@ Traceback = np.zeros((length1 + 1, length2 + 1), dtype=int)
 # Inicjalizacja wartosci kary za luki (gap penalty)
 gap_penalty = -2
 
+for j in range(length1 + 1):
+    Matrix[j][0] = gap_penalty * j
+
+for j in range(length2 + 1):
+    Matrix[0][j] = gap_penalty * j
+
 # Wypelnienie macierzy wynikowej (algorytm Needlemana-Wunscha)
 for i in range(1, length1 + 1):
     for j in range(1, length2 + 1):
